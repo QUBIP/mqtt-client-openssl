@@ -14,8 +14,6 @@
     
 */
 
-//to test
-
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -52,7 +50,7 @@ int main(int argc, char *argv[])
     // Create threads
 
     // MODBUS TCP thread
-    modbus_task_config_t modbus_config = {config.modbus_plc_ip, config.modbus_plc_port, config.modbus_plc_register};
+    modbus_task_config_t modbus_config = {config.modbus_plc_ip, config.modbus_plc_port, config.modbus_plc_register, config.test_enable};
 
     ret = pthread_create(&modbus_thread, NULL, modbus_task, (void *)&modbus_config);
     if (ret != 0)
@@ -122,6 +120,7 @@ void load_config_from_command_line_args(int argc, char *argv[], config_t *config
         {"mqtt-port", required_argument, 0, '8'},
         {"mqtt-device-name", required_argument, 0, '9'},
         {"mqtt-topic", required_argument, 0, 'a'},
+        {"test-enable", required_argument, 0, 'b'},
         {0, 0, 0, 0}};
 
     while ((opt = getopt_long(argc, argv, short_opts, long_opts, NULL)) != -1)
@@ -158,8 +157,22 @@ void load_config_from_command_line_args(int argc, char *argv[], config_t *config
         case 'a': // MQTT_TOPIC
             config->mqtt_topic = optarg;
             break;
+        case 'b' : //TEST_ENABLE
+            if (optarg) {
+        printf("DEBUG: Received --test-enable = %s\n", optarg); // Debug
+        if (strcmp(optarg, "true") == 0)
+            config->test_enable = 1;
+	else if (strcmp(optarg, "false") == 0)
+	    config->test_enable = 0;
+	else {
+	    fprintf(stderr, "Error: Invalid value for --test-enable. Use 'true' or 'false'.\n");
+	    exit(EXIT_FAILURE);
+	}
+		printf("DEBUG: After assignment, config->test_enable = %d\n", config->test_enable); // NUOVO DEBUG
+	    }
+            break;
         default:
-            fprintf(stderr, "Usage: %s --ca-cert CA_CERT_FILE --client-cert CLIENT_CERT_FILE --client-key CLIENT_KEY_FILE --modbus-ip MODBUS_PLC_IP --modbus-port MODBUS_PLC_PORT --modbus-register MODBUS_PLC_REGISTER --mqtt-broker MQTT_BROKER_IP --mqtt-port MQTT_BROKER_PORT --mqtt-topic MQTT_TOPIC\n", argv[0]);
+            fprintf(stderr, "Usage: %s --ca-cert CA_CERT_FILE --client-cert CLIENT_CERT_FILE --client-key CLIENT_KEY_FILE --modbus-ip MODBUS_PLC_IP --modbus-port MODBUS_PLC_PORT --modbus-register MODBUS_PLC_REGISTER --mqtt-broker MQTT_BROKER_IP --mqtt-port MQTT_BROKER_PORT --mqtt-topic MQTT_TOPIC --test-enable \n ", argv[0]);
             exit(EXIT_FAILURE);
         }
     }

@@ -12,6 +12,8 @@ typedef struct
     char *plc_ip;
     char *plc_port;
     unsigned int plc_register;
+    int test_enable;
+    
 } modbus_task_config_t;
 
 void *modbus_task(void *arg);

@@ -13,6 +13,7 @@ typedef struct
     char *mqtt_broker_port;
     char *mqtt_device_name;
     char *mqtt_topic;
+    int test_enable;
 } config_t;
 
 #endif

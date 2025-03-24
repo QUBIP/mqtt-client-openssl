@@ -121,6 +121,8 @@ int MqttConnectBroker(mqtt_config_t* config)
  */
 void *mqtt_sub_task(void *arg)
 {
+    
+
     mqtt_config_t *config = (mqtt_config_t *)arg;
 
     if (config == NULL)
@@ -159,6 +161,16 @@ void *mqtt_sub_task(void *arg)
  * 
  * @retval Pointer to the result of the thread execution or NULL.
  */
+ 
+void mqtt_send_value(unsigned long value)
+{
+    pthread_mutex_lock(&mutex);
+    shared_value = value;
+    printf("DEBUG: mqtt_task - shared_value = %lu\n", shared_value);
+    pthread_cond_signal(&cond);
+    pthread_mutex_unlock(&mutex);
+} 
+
 void *mqtt_pub_task(void *arg)
 {
     mqtt_config_t *config = (mqtt_config_t *)arg;
@@ -210,7 +222,12 @@ void *mqtt_pub_task(void *arg)
                 ;
             ulNotifiedValue = shared_value;
             pthread_mutex_unlock(&mutex);
-
+	     
+	    if (strcmp(config->device_name, "STM32") == 0 || config->device_name == NULL) {
+		    printf("DEBUG: Waiting for valid device_name... Current: %s\n", config->device_name);
+		    sleep(1);
+		    continue;  // Salta l'invio se il nome del device non è ancora corretto
+		}
             // Composing the message to be sent
             snprintf(str, sizeof(str),
                      "{\n"
@@ -223,6 +240,7 @@ void *mqtt_pub_task(void *arg)
             message.payload = (void *)str;
             message.payloadlen = strlen(str);
 
+	
             // Send the message at topic
             if (MQTTPublish(&mqttClient, config->topic, &message) != MQTT_SUCCESS)
             {

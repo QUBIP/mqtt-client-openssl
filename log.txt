@@ -1,0 +1,536 @@
+DEBUG: Received --test-enable = true
+DEBUG: After assignment, config->test_enable = 1
+DEBUG: modbus_task - test_enable = 1
+modbus_task: TEST MODE - Sending random value: 404
+OpenSSL 1.1.1f  31 Mar 2020
+[MQTT_PUB_TASK] INFO: MQTT_ConnectBroker O.K.
+modbus_task: TEST MODE - Sending random value: 432
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 432
+}
+modbus_task: TEST MODE - Sending random value: 456
+modbus_task: TEST MODE - Sending random value: 208
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 208
+}
+modbus_task: TEST MODE - Sending random value: 6
+modbus_task: TEST MODE - Sending random value: 779
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 779
+}
+modbus_task: TEST MODE - Sending random value: 136
+modbus_task: TEST MODE - Sending random value: 948
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 948
+}
+modbus_task: TEST MODE - Sending random value: 216
+modbus_task: TEST MODE - Sending random value: 401
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 401
+}
+modbus_task: TEST MODE - Sending random value: 674
+modbus_task: TEST MODE - Sending random value: 419
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 419
+}
+modbus_task: TEST MODE - Sending random value: 72
+modbus_task: TEST MODE - Sending random value: 248
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 248
+}
+modbus_task: TEST MODE - Sending random value: 694
+modbus_task: TEST MODE - Sending random value: 762
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 762
+}
+modbus_task: TEST MODE - Sending random value: 227
+modbus_task: TEST MODE - Sending random value: 794
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 794
+}
+modbus_task: TEST MODE - Sending random value: 673
+modbus_task: TEST MODE - Sending random value: 227
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 227
+}
+modbus_task: TEST MODE - Sending random value: 302
+modbus_task: TEST MODE - Sending random value: 581
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 581
+}
+modbus_task: TEST MODE - Sending random value: 462
+modbus_task: TEST MODE - Sending random value: 225
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 225
+}
+modbus_task: TEST MODE - Sending random value: 671
+modbus_task: TEST MODE - Sending random value: 377
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 377
+}
+modbus_task: TEST MODE - Sending random value: 357
+modbus_task: TEST MODE - Sending random value: 643
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 643
+}
+modbus_task: TEST MODE - Sending random value: 630
+modbus_task: TEST MODE - Sending random value: 415
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 415
+}
+modbus_task: TEST MODE - Sending random value: 343
+modbus_task: TEST MODE - Sending random value: 33
+[MQTT_SUB_TASK] INFO: MQTT MSG[44]:{
+  "device": "LINUX_DEVICE",
+  "data": 33
+}
+modbus_task: TEST MODE - Sending random value: 198
+modbus_task: TEST MODE - Sending random value: 798
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 798
+}
+modbus_task: TEST MODE - Sending random value: 592
+modbus_task: TEST MODE - Sending random value: 203
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 203
+}
+modbus_task: TEST MODE - Sending random value: 928
+modbus_task: TEST MODE - Sending random value: 79
+[MQTT_SUB_TASK] INFO: MQTT MSG[44]:{
+  "device": "LINUX_DEVICE",
+  "data": 79
+}
+modbus_task: TEST MODE - Sending random value: 503
+modbus_task: TEST MODE - Sending random value: 144
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 144
+}
+modbus_task: TEST MODE - Sending random value: 479
+modbus_task: TEST MODE - Sending random value: 528
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 528
+}
+modbus_task: TEST MODE - Sending random value: 562
+modbus_task: TEST MODE - Sending random value: 551
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 551
+}
+modbus_task: TEST MODE - Sending random value: 127
+modbus_task: TEST MODE - Sending random value: 607
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 607
+}
+modbus_task: TEST MODE - Sending random value: 664
+modbus_task: TEST MODE - Sending random value: 706
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 706
+}
+modbus_task: TEST MODE - Sending random value: 400
+modbus_task: TEST MODE - Sending random value: 336
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 336
+}
+modbus_task: TEST MODE - Sending random value: 932
+modbus_task: TEST MODE - Sending random value: 53
+[MQTT_SUB_TASK] INFO: MQTT MSG[44]:{
+  "device": "LINUX_DEVICE",
+  "data": 53
+}
+modbus_task: TEST MODE - Sending random value: 916
+modbus_task: TEST MODE - Sending random value: 745
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 745
+}
+modbus_task: TEST MODE - Sending random value: 630
+modbus_task: TEST MODE - Sending random value: 938
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 938
+}
+modbus_task: TEST MODE - Sending random value: 474
+modbus_task: TEST MODE - Sending random value: 986
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 986
+}
+modbus_task: TEST MODE - Sending random value: 580
+modbus_task: TEST MODE - Sending random value: 103
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 103
+}
+modbus_task: TEST MODE - Sending random value: 752
+modbus_task: TEST MODE - Sending random value: 922
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 922
+}
+modbus_task: TEST MODE - Sending random value: 487
+modbus_task: TEST MODE - Sending random value: 301
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 301
+}
+modbus_task: TEST MODE - Sending random value: 72
+modbus_task: TEST MODE - Sending random value: 430
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 430
+}
+modbus_task: TEST MODE - Sending random value: 856
+modbus_task: TEST MODE - Sending random value: 999
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 999
+}
+modbus_task: TEST MODE - Sending random value: 509
+modbus_task: TEST MODE - Sending random value: 710
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 710
+}
+modbus_task: TEST MODE - Sending random value: 494
+modbus_task: TEST MODE - Sending random value: 339
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 339
+}
+modbus_task: TEST MODE - Sending random value: 237
+modbus_task: TEST MODE - Sending random value: 407
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 407
+}
+modbus_task: TEST MODE - Sending random value: 889
+modbus_task: TEST MODE - Sending random value: 364
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 364
+}
+modbus_task: TEST MODE - Sending random value: 14
+modbus_task: TEST MODE - Sending random value: 552
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 552
+}
+modbus_task: TEST MODE - Sending random value: 69
+modbus_task: TEST MODE - Sending random value: 765
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 765
+}
+modbus_task: TEST MODE - Sending random value: 240
+modbus_task: TEST MODE - Sending random value: 352
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 352
+}
+modbus_task: TEST MODE - Sending random value: 170
+modbus_task: TEST MODE - Sending random value: 507
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 507
+}
+modbus_task: TEST MODE - Sending random value: 96
+modbus_task: TEST MODE - Sending random value: 799
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 799
+}
+modbus_task: TEST MODE - Sending random value: 445
+modbus_task: TEST MODE - Sending random value: 569
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 569
+}
+modbus_task: TEST MODE - Sending random value: 136
+modbus_task: TEST MODE - Sending random value: 24
+[MQTT_SUB_TASK] INFO: MQTT MSG[44]:{
+  "device": "LINUX_DEVICE",
+  "data": 24
+}
+modbus_task: TEST MODE - Sending random value: 23
+modbus_task: TEST MODE - Sending random value: 887
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 887
+}
+modbus_task: TEST MODE - Sending random value: 298
+modbus_task: TEST MODE - Sending random value: 861
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 861
+}
+modbus_task: TEST MODE - Sending random value: 539
+modbus_task: TEST MODE - Sending random value: 721
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 721
+}
+modbus_task: TEST MODE - Sending random value: 291
+modbus_task: TEST MODE - Sending random value: 394
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 394
+}
+modbus_task: TEST MODE - Sending random value: 719
+modbus_task: TEST MODE - Sending random value: 151
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 151
+}
+modbus_task: TEST MODE - Sending random value: 103
+modbus_task: TEST MODE - Sending random value: 565
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 565
+}
+modbus_task: TEST MODE - Sending random value: 489
+modbus_task: TEST MODE - Sending random value: 340
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 340
+}
+modbus_task: TEST MODE - Sending random value: 971
+modbus_task: TEST MODE - Sending random value: 378
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 378
+}
+modbus_task: TEST MODE - Sending random value: 55
+modbus_task: TEST MODE - Sending random value: 336
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 336
+}
+modbus_task: TEST MODE - Sending random value: 281
+modbus_task: TEST MODE - Sending random value: 123
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 123
+}
+modbus_task: TEST MODE - Sending random value: 101
+modbus_task: TEST MODE - Sending random value: 872
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 872
+}
+modbus_task: TEST MODE - Sending random value: 826
+modbus_task: TEST MODE - Sending random value: 622
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 622
+}
+modbus_task: TEST MODE - Sending random value: 379
+modbus_task: TEST MODE - Sending random value: 921
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 921
+}
+modbus_task: TEST MODE - Sending random value: 420
+modbus_task: TEST MODE - Sending random value: 175
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 175
+}
+modbus_task: TEST MODE - Sending random value: 842
+modbus_task: TEST MODE - Sending random value: 907
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 907
+}
+modbus_task: TEST MODE - Sending random value: 198
+modbus_task: TEST MODE - Sending random value: 216
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 216
+}
+modbus_task: TEST MODE - Sending random value: 793
+modbus_task: TEST MODE - Sending random value: 847
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 847
+}
+modbus_task: TEST MODE - Sending random value: 77
+modbus_task: TEST MODE - Sending random value: 331
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 331
+}
+modbus_task: TEST MODE - Sending random value: 567
+modbus_task: TEST MODE - Sending random value: 719
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 719
+}
+modbus_task: TEST MODE - Sending random value: 77
+modbus_task: TEST MODE - Sending random value: 638
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 638
+}
+modbus_task: TEST MODE - Sending random value: 869
+modbus_task: TEST MODE - Sending random value: 179
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 179
+}
+modbus_task: TEST MODE - Sending random value: 202
+modbus_task: TEST MODE - Sending random value: 357
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 357
+}
+modbus_task: TEST MODE - Sending random value: 518
+modbus_task: TEST MODE - Sending random value: 524
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 524
+}
+modbus_task: TEST MODE - Sending random value: 86
+modbus_task: TEST MODE - Sending random value: 572
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 572
+}
+modbus_task: TEST MODE - Sending random value: 860
+modbus_task: TEST MODE - Sending random value: 719
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 719
+}
+modbus_task: TEST MODE - Sending random value: 46
+modbus_task: TEST MODE - Sending random value: 960
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 960
+}
+modbus_task: TEST MODE - Sending random value: 590
+modbus_task: TEST MODE - Sending random value: 871
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 871
+}
+modbus_task: TEST MODE - Sending random value: 581
+modbus_task: TEST MODE - Sending random value: 320
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 320
+}
+modbus_task: TEST MODE - Sending random value: 144
+modbus_task: TEST MODE - Sending random value: 352
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 352
+}
+modbus_task: TEST MODE - Sending random value: 494
+modbus_task: TEST MODE - Sending random value: 337
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 337
+}
+modbus_task: TEST MODE - Sending random value: 258
+modbus_task: TEST MODE - Sending random value: 44
+[MQTT_SUB_TASK] INFO: MQTT MSG[44]:{
+  "device": "LINUX_DEVICE",
+  "data": 44
+}
+modbus_task: TEST MODE - Sending random value: 552
+modbus_task: TEST MODE - Sending random value: 402
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 402
+}
+modbus_task: TEST MODE - Sending random value: 890
+modbus_task: TEST MODE - Sending random value: 980
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 980
+}
+modbus_task: TEST MODE - Sending random value: 84
+modbus_task: TEST MODE - Sending random value: 809
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 809
+}
+modbus_task: TEST MODE - Sending random value: 698
+modbus_task: TEST MODE - Sending random value: 160
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 160
+}
+modbus_task: TEST MODE - Sending random value: 798
+modbus_task: TEST MODE - Sending random value: 566
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 566
+}
+modbus_task: TEST MODE - Sending random value: 339
+modbus_task: TEST MODE - Sending random value: 351
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 351
+}
+modbus_task: TEST MODE - Sending random value: 275
+modbus_task: TEST MODE - Sending random value: 208
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 208
+}
+modbus_task: TEST MODE - Sending random value: 874
+modbus_task: TEST MODE - Sending random value: 360
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 360
+}
+modbus_task: TEST MODE - Sending random value: 132
+modbus_task: TEST MODE - Sending random value: 733
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 733
+}
+modbus_task: TEST MODE - Sending random value: 430
+modbus_task: TEST MODE - Sending random value: 177
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 177
+}
+modbus_task: TEST MODE - Sending random value: 692
+modbus_task: TEST MODE - Sending random value: 20
+[MQTT_SUB_TASK] INFO: MQTT MSG[44]:{
+  "device": "LINUX_DEVICE",
+  "data": 20
+}
+modbus_task: TEST MODE - Sending random value: 400
+modbus_task: TEST MODE - Sending random value: 624
+[MQTT_SUB_TASK] INFO: MQTT MSG[45]:{
+  "device": "LINUX_DEVICE",
+  "data": 624
+}
+modbus_task: TEST MODE - Sending random value: 691
+modbus_task: TEST MODE - Sending random value: 543
+[MQTT_S
