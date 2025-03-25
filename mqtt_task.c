@@ -225,7 +225,7 @@ void *mqtt_pub_task(void *arg)
 	     
 	    if (strcmp(config->device_name, "STM32") == 0 || config->device_name == NULL) {
 		    printf("DEBUG: Waiting for valid device_name... Current: %s\n", config->device_name);
-		    sleep(1);
+		    sleep_ms(1000);
 		    continue;  // Salta l'invio se il nome del device non è ancora corretto
 		}
             // Composing the message to be sent
