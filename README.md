@@ -87,6 +87,6 @@ make -j8
   - **MQTT Topic 📝**: MQTT topic where the device publishes data 📊. It can also be used for subscriptions or notifications 🔔.
 
   `-- test-enable`
-   - **Enable Test MOde 🧪**: When this flag is present, the program sends randomly generated values to the MQTT broker, without connecting to a Modbus device. 
+   - **Enable Test Mode 🧪**: When this flag is present, the program sends randomly generated values to the MQTT broker, without connecting to a Modbus device. 
                               Omit this flag to enable standard mode, which reads from a real Modbus holding register and publishes its value.
 
