@@ -1,4 +1,4 @@
-# 🌐 qubip-mqtt-linux-client-openssl
+# 🌐 qubip-mqtt-linux-client-openssl_industry_test
 
 TThis program demonstrates how to establish a secure connection to an MQTT broker using TLS v1.3 encryption.
 
