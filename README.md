@@ -1,17 +1,21 @@
 # 🌐 qubip-mqtt-linux-client-openssl
 
-This program tries to connect to an MQTT broker via TLS v1.3 encryption.
+TThis program demonstrates how to establish a secure connection to an MQTT broker using TLS v1.3 encryption.
 
-This example demonstrates how to establish a secure connection to an MQTT broker using TLS v1.3 encryption.
+The application supports two execution modes, controlled by the TEST_MODE flag defined in the source code:
 
-It subsequently establishes a Modbus TCP connection to a PLC (or any Modbus TCP master), reads a holding register, and transmits its value to the MQTT broker. The register is then incremented by one, updated on the PLC, and this cycle repeats continuously.
+TEST_MODE = true: the program connects to the MQTT broker and periodically sends randomly generated values. This mode is intended for testing the MQTT communication without requiring a Modbus device.
+
+TEST_MODE = false: the program connects to a Modbus TCP master, reads a specified holding register, sends its value to the MQTT broker, increments the register, writes the new value back to the Modbus device, and repeats this cycle continuously.
+
+This setup allows for both simulated testing and integration with real industrial devices.
 
 ## 🛠️ To Compile:
 
 ### Clone the Repository 📁
 
 ```bash
-git clone --recurse-submodules https://github.com/smartfactoryrepo/qubip-mqtt-linux-client-openssl.git
+git clone --recurse-submodules https://github.com/QUBIP/mqtt-client-openssl.git
 ```
 
 ### Give Execute Permissions 🔑
@@ -47,7 +51,7 @@ make -j8
 ## 🚀 How to Run
 
 ```bash
-./main --ca-cert cert/ca.crt --client-cert cert/client.crt --client-key cert/client.key --modbus-ip 192.168.168.134 --modbus-port 5002 --modbus-register 10 --mqtt-broker 192.168.101.63 --mqtt-port 1883 --mqtt-device-name LINUX_DEVICE --mqtt-topic 2023/test
+./main --ca-cert cert/ca.crt --client-cert cert/client.crt --client-key cert/client.key --modbus-ip 192.168.168.134 --modbus-port 5002 --modbus-register 10 --mqtt-broker 192.168.101.63 --mqtt-port 1883 --mqtt-device-name LINUX_DEVICE --mqtt-topic 2023/test --test-enable [false/true]
 ```
 
 ## 📝 Parameter Description
@@ -81,3 +85,8 @@ make -j8
 
 - `--mqtt-topic 2023/test`
   - **MQTT Topic 📝**: MQTT topic where the device publishes data 📊. It can also be used for subscriptions or notifications 🔔.
+
+  `-- test-enable`
+   - **Enable Test MOde 🧪**: When this flag is present, the program sends randomly generated values to the MQTT broker, without connecting to a Modbus device. 
+                              Omit this flag to enable standard mode, which reads from a real Modbus holding register and publishes its value.
+
