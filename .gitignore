@@ -165,10 +165,12 @@ core
 # with extensions.  And we keep the corpora subddir versioned as well.
 # Anything more generic with extensions that should be ignored will be taken
 # care of by general ignores for those extensions (*.o, *.obj, *.exe, ...)
-/openssl-3.2.2/fuzz/*
-/openssl-3.2.2!/fuzz/README*
-/openssl-3.2.2!/fuzz/corpora
-/openssl-3.2.2!/fuzz/*.*
+#/openssl-3.2.2/fuzz/*
+#/openssl-3.2.2!/fuzz/README*
+#/openssl-3.2.2!/fuzz/corpora
+#/openssl-3.2.2!/fuzz/*.*
+
+/cert/*
 
 # Misc auto generated files
 /openssl-3.2.2/doc/man7/openssl_user_macros.pod

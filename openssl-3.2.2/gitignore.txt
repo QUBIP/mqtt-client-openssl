@@ -130,10 +130,10 @@ providers/common/include/prov/der_sm2.h
 # with extensions.  And we keep the corpora subddir versioned as well.
 # Anything more generic with extensions that should be ignored will be taken
 # care of by general ignores for those extensions (*.o, *.obj, *.exe, ...)
-/fuzz/*
-!/fuzz/README*
-!/fuzz/corpora
-!/fuzz/*.*
+#/fuzz/*
+#!/fuzz/README*
+#!/fuzz/corpora
+#!/fuzz/*.*
 
 # Misc auto generated files
 /doc/man7/openssl_user_macros.pod
