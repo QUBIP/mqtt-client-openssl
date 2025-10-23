@@ -15,7 +15,7 @@ This setup allows for both simulated testing and integration with real industria
 ### Clone the Repository 📁
 
 ```bash
-git clone --brench industry_test --recurse-submodules https://github.com/QUBIP/mqtt-client-openssl.git
+git clone --branch industry_test --recurse-submodules https://github.com/QUBIP/mqtt-client-openssl.git
 ```
 
 ### Give Execute Permissions 🔑
